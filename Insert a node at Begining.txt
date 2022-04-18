@@ -1,0 +1,21 @@
+Write a function to insert a node at begining in a single linked list..?
+Sol:: 
+void insert at begining()
+{
+Struct node*new node;
+int elements;
+printf("\n Enter elements to be insert");
+scanf("%d", &elements);
+newnode=(Struct node*)malloc(size of(struct node));
+new node->data=elements;
+new node->next=NULL;
+if(start==NULL)
+{
+start=newnode;
+}
+else
+{
+new node->next=start;
+start=new node;
+}
+}
